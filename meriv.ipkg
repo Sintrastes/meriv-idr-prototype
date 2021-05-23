@@ -1,0 +1,12 @@
+package meriv
+
+modules = 
+    Meriv.Core.Ast
+  , Meriv.Core.Interp
+  , Meriv.Core.Interfaces.Unifiable
+  , Meriv.Core.Util
+  , Meriv.Core.Queries
+  , Meriv.Core.Main
+
+executable = meriv
+main = Meriv.Core.Main
